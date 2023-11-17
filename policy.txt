@@ -1,0 +1,42 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "kendra:*",
+                "s3:*",
+                "cloudformation:*",
+                "bedrock:*",
+                "dynamodb:DescribeTable",
+                "sqs:*",
+                "cognito-idp:CreateUserPool",
+                "dynamodb:CreateTable",
+                "cognito-idp:DeleteUserPool",
+                "dynamodb:DeleteTable",
+                "apigateway:*",
+                "lambda:*",
+                "iam:ListRoles",
+                "iam:GetRole",
+                "iam:CreateRole",
+                "iam:DeleteRole",
+                "iam:UpdateRole",
+                "iam:PutRolePolicy",
+                "cognito-idp:CreateUserPoolClient",
+                "iam:AttachRolePolicy",
+                "iam:DeleteRolePolicy",
+                "cognito-idp:DeleteUserPoolClient",
+                "iam:PassRole",
+                "cognito-idp:DescribeUserPool",
+                "iam:DetachRolePolicy",
+                "iam:DetachUserPolicy",
+                "secretsmanager:GetSecretValue",
+                "amplify:*",
+                "amplifybackend:*",
+                "amplifyuibuilder:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
